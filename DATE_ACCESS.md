@@ -9,3 +9,11 @@ Set-Location -Path ['Path to your database folder']
  Get-ChildItem -Path ['Path to your tmp folder']\tmp -Include *.* -Recurse | foreach { $_.Delete()}
  Start-Sleep -s 5
  }
+
+dee
+
+dede\de
+
+
+
+de
