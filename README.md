@@ -24,7 +24,7 @@ We used part of the available data (517 objects), including 307 women and 210 me
 
 ## CNN Model
 
-![image-20200327191716120](C:\Users\maxsk\AppData\Roaming\Typora\typora-user-images\image-20200327191716120.png)
+![](D:\Brain_Differences_project_ML2020\Capture.PNG)
 
 ## Training
 
