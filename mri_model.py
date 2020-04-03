@@ -20,19 +20,14 @@ class MriNet(nn.Module):
         self.hidden3 = hidden(2*c, 4*c)
         self.linear = nn.Linear(128*5*7*5, 2)
         self.flatten = nn.Flatten()
-        self.drop_layer = nn.Dropout(p=.5) #dropout for preventing overfitting
 
     def forward(self, x):
         x = self.hidden1(x)
-        #x = self.drop_layer(x)
         x = self.hidden2(x)
-        #x = self.drop_layer(x)
         x = self.hidden3(x)
-        #x = self.drop_layer(x)
         x = self.flatten(x)
         x = self.linear(x)
         x = F.log_softmax(x, dim=1)
-        x = self.drop_layer(x)
         return x
 
 class MriData(torch.utils.data.Dataset):
