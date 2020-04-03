@@ -2,11 +2,11 @@
 
 ### 5 Nearest_Neighbors_team
 
-We analyze data provided by The Human Connectome Project (HCP).  Using full-size MRI data we solve the problem of binary classification of finding the sex of an object.
+We analyze data provided by The Human Connectome Project (HCP).  Using diffusion MRI data we solve the problem of binary classification of finding the sex of an person using 3D-CNN. Further we intepret obtained model to undestand of male-female brain differencies. 
 
 ## Setup and Dependencies
 
-- Python
+- python
 
 - numpy
 
