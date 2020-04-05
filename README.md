@@ -1,3 +1,6 @@
+{% include brain.html %}
+
+
 # "Brain Differences Between Men and Women: Evidence From Deep Learning"
 
 ### 5 Nearest_Neighbors_team
@@ -21,11 +24,6 @@ We analyze data provided by The Human Connectome Project (HCP).  Using diffusion
 The data we use is an open-access database taken from Human Connection Project (HCP). We worked with tabular description of MPI data  and DTI preprocessed MRI data(maps of factional anisotropy(FA tensor) as a result). 
 
 Data contain 1113 subjects, including 507 men and 606 women, age varies from 22 to 36.Each object is represented by a 1 GB ZIP archive with a name corresponding to a unique object ID.Each archive contains a lot of different information. For automatic access to the target MRI file, the power shell script was written that can be found in DATE_ACCESS.md. The script allows you to extract the necessary file from the internal ZIP archive(inside the main archive), without unzipping the main one to save time. Also, a unique ID corresponding to each object is assigned as a name for each file.
-
-
-
-{% include brain.html %}
-{% include mask.html %}
 
 
 
