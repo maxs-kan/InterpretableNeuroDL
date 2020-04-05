@@ -1,6 +1,3 @@
-{% include brain.html %}
-
-
 # "Brain Differences Between Men and Women: Evidence From Deep Learning"
 
 ### 5 Nearest_Neighbors_team
