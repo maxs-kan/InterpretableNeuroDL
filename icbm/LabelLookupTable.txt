@@ -1,0 +1,100 @@
+1	MCP		Middle cerebellar peduncle
+
+2	PCT		Pontine crossing tract (a part of MCP)
+
+3	GCC		Genu of corpus callosum
+
+4	BCC		Body of corpus callosum
+
+5	SCC		Splenium of corpus callosum
+
+6	FX		Fornix (column and body of fornix)
+
+7	CST-L		Corticospinal tract left
+
+8	CST-R		Corticospinal tract right
+
+9	ML-L		Medial lemniscus left
+
+10	ML-R		Medial lemniscus right
+
+11	ICP-L		Inferior cerebellar peduncle left
+
+12	ICP-R		Inferior cerebellar peduncle right
+
+13	SCP-L		Superior cerebellar peduncle left
+
+14	SCP-R		Superior cerebellar peduncle right
+
+15	CP-L		Cerebral peduncle left
+
+16	CP-R		Cerebral peduncle right
+
+17	ALIC-L		Anterior limb of internal capsule left
+
+18	ALIC-R		Anterior limb of internal capsule right
+
+19	PLIC-L		Posterior limb of internal capsule left
+
+20	PLIC-R		Posterior limb of internal capsule right
+
+21	RLIC-L		Retrolenticular part of internal capsule left
+
+22	RLIC-R		Retrolenticular part of internal capsule right
+
+23	ACR-L		Anterior corona radiata left
+
+24	ACR-R		Anterior corona radiata right
+
+25	SCR-L		Superior corona radiata left
+
+26	SCR-R		Superior corona radiata right
+
+27	PCR-L		Posterior corona radiata left
+
+28	PCR-R		Posterior corona radiata right
+
+29	PTR-L		Posterior thalamic radiation (include optic radiation) left
+
+30	PTR-R		Posterior thalamic radiation (include optic radiation) right
+
+31	SS-L		Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus) left
+
+32	SS-R		Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus) right
+
+33	EC-L		External capsule left
+
+34	EC-R		External capsule right
+
+35	CGC-L		Cingulum (cingulate gyrus) left
+
+36	CGC-R		Cingulum (cingulate gyrus) right
+
+37	CGH-L		Cingulum (hippocampus) left
+
+38	CGH-R		Cingulum (hippocampus) right
+
+39	FX/ST-L		Fornix (cres) / Stria terminalis (can not be resolved with current resolution) left
+
+40	FX/ST-R		Fornix (cres) / Stria terminalis (can not be resolved with current resolution) right
+
+41	SLF-L		Superior longitudinal fasciculus left
+
+42	SLF-R		Superior longitudinal fasciculus right
+
+43	SFO-L		Superior fronto-occipital fasciculus (could be a part of anterior internal capsule) left
+
+44	SFO-R		Superior fronto-occipital fasciculus (could be a part of anterior internal capsule) right
+
+45	IFO-L		Inferior fronto-occipital fasciculus left ?
+
+46	IFO-R		Inferior fronto-occipital fasciculus right ?
+
+47	UNC-L		Uncinate fasciculus left
+
+48	UNC-R		Uncinate fasciculus right
+
+49	TAP-L		Tapatum left
+
+50 	TAP-R		Tapatum	right
+
