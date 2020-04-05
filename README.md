@@ -55,6 +55,3 @@ Data contain 1113 subjects, including 507 men and 606 women, age varies from 22 
 
 ## Woman
 ![](image/woman.png)
-
-## Brain
-![](image/brain.html)
