@@ -52,7 +52,8 @@ Data contain 1113 subjects, including 507 men and 606 women, age varies from 22 
 
 
 ## Meaningful perturbation
-
+[3D visualization of brain](https://maxs-kan.github.io/Brain_Differences_project_ML2020/brain.html)
+[3D visualization of mask](https://maxs-kan.github.io/Brain_Differences_project_ML2020/mask.html)
 ## Man
 ![](image/man.png)
 
