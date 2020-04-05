@@ -46,7 +46,7 @@ Data contain 1113 subjects, including 507 men and 606 women, age varies from 22 
 #### feature_analysis.ipynb - first layer feature analysis
 
 ### Meaningful perturbation
-#### MASK.ipynb - meaningful perturbation process  
+#### MASK_new.ipynb - meaningful perturbation process  
 
 
 ## CNN Model
