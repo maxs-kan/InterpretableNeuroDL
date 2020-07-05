@@ -1,4 +1,4 @@
-# "Brain Differences Between Men and Women: Evidence From Deep Learning"
+# Interpretable Deep Learning for Pattern Recognition in Brain Differences Between Men and Women
 
 ### 5 Nearest_Neighbors_team
 
