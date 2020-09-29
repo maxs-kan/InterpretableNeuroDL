@@ -1,2 +1,7 @@
 .DS_Store
 .ipynb_checkpoints
+__pycache__
+*.pyc
+__pycache__/
+labels.npy
+tensors.npy
