@@ -58,7 +58,7 @@ class MeanPertrub():
         res = []
         N, C, D, H, W = X.shape
         rw_max = self.max_iter // 5
-        for i, img in tqdm(enumerate(X)):
+        for i, img in tqdm(enumerate(X), total=X.shape[0]):
             model_ans = pred[i]
             mask = torch.ones((1, C, D // self.mask_scale, H // self.mask_scale, W // self.mask_scale), requires_grad=True, device=self.device)
             optimizer = Adam([mask], lr=self.lr, betas=(0.9, 0.99), amsgrad=True)
@@ -93,10 +93,8 @@ class MeanPertrub():
                 optimizer.step()
                 scheduler.step()
                 mask.data.clamp_(0, 1)
-            if i % 25 == 0:
-                print('{} iteration is finished.'.format(i))
             res_mask = upsample((1 - best_mask), img_size=(D, H, W))
             res.append(res_mask.cpu().numpy())
-        X_mask = np.stack(res, axis=0)
+        X_mask = np.concatenate(res, axis=0)
         X_mask =  X_mask.squeeze(axis=1)
         return X_mask
