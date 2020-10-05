@@ -53,14 +53,17 @@ Architecture reproduced from the paper [Brain Differences Between Men and Women:
 
 
 Interpretation with meaningful perturbation:
+
 ![](image/meaningful_perturbation.png)
 
 ## GradCAM
 
 Interpretation with Grad CAM:
+
 ![](image/grad_cam.png)
 
 ## Guided backpropagation
 
 3D CNN Interpretation with Guided backpropogation:
+
 ![](image/guided_backpropagation.png)
