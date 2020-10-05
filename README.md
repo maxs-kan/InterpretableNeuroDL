@@ -44,18 +44,21 @@ To train the 3D CNN models use
 ```
 
 ![](image/CNN_arch.PNG)
-
+Architecture reproduced from the paper [Brain Differences Between Men and Women: Evidence From Deep Learning](https://www.frontiersin.org/articles/10.3389/fnins.2019.00185/full)
 
 ## Meaningful perturbation
 [3D visualization of mask](https://maxs-kan.github.io/InterpretableNeuroDL/mask.html)
 
 
-
+Interpretation with meaningful perturbation:
 ![](image/meaningful_perturbation.png)
 
 ## GradCAM
+
+Interpretation with Grad CAM:
 ![](image/grad_cam.png)
 
 ## Guided backpropagation
 
+3D CNN Interpretation with Guided backpropogation:
 ![](image/guided_backpropagation.png)
