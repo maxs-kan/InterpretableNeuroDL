@@ -12,4 +12,4 @@ requests==2.18.4
 SecretStorage==2.3.1
 six==1.11.0
 ssh-import-id==5.7
-urllib3==1.22
+urllib3==1.24.2
