@@ -1,4 +1,4 @@
-# Interpretation of 3D CNNs for Brain MRI DataClassification
+# Interpretation of 3D CNNs for Brain MRI Data Classification
 
 We analyze data provided by The Human Connectome Project (HCP).  Using T1-weighted MRI data we solve the problem of binary classification of task of gender patterns recognition between men and women with 3D - CNN. Further we intepret obtained model to undestand of gender-related brain differencies. 
 
