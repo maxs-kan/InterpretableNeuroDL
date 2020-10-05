@@ -51,11 +51,11 @@ To train the 3D CNN models use
 
 
 
-![](image/meaningful perturbation.png)
+![](image/meaningful_perturbation.png)
 
 ## GradCAM
 ![](image/grad_cam.png)
 
 ## Guided backpropagation
 
-![](image/guided backpropagation.png)
+![](image/guided_backpropagation.png)
