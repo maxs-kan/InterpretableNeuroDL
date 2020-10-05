@@ -1,6 +1,6 @@
-# Interpretable Deep Learning for Pattern Recognition in Brain Differences Between Men and Women
+# Interpretation of 3D CNNs for Brain MRI DataClassification
 
-We analyze data provided by The Human Connectome Project (HCP).  Using diffusion MRI data we solve the problem of binary classification of finding the sex of an person using 3D-CNN. Further we intepret obtained model to undestand of male-female brain differencies. 
+We analyze data provided by The Human Connectome Project (HCP).  Using T1-weighted MRI data we solve the problem of binary classification of task of gender patterns recognition between men and women with 3D - CNN. Further we intepret obtained model to undestand of gender-related brain differencies. 
 
 ## Setup and Dependencies
 
@@ -14,7 +14,7 @@ pip install -r ./requirements.txt
 
 ## DATABASE 
 
-The data we use is an open-access database taken from Human Connection Project (HCP). We worked with tabular description of MPI data  and DTI preprocessed MRI data(maps of factional anisotropy(FA tensor) as a result). 
+The data we use is an open-access database taken from Human Connection Project (HCP). We worked with morphometry description of T1 MPI images as wel as the full-sized images preprocessed in `Freesurfer` according to the HCP pipeline.
 
 Data contain 1113 subjects, including 507 men and 606 women. Each object is represented by a 1 GB ZIP archive with a name corresponding to a unique object ID. Each archive contains a lot of information. For automatic access to the target MRI file, the power shell script was written that can be found in 
 
