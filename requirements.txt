@@ -1,0 +1,5 @@
+tqdm==4.46.0
+numpy==1.18.1
+pandas==1.0.5
+torch==1.5.1
+scipy==1.4.1
