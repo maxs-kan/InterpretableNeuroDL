@@ -9,7 +9,7 @@ click==7.1.2
 conda==4.8.3
 conda-package-handling==1.7.0
 configparser==5.0.0
-cryptography==2.9.2
+cryptography==3.2
 cycler==0.10.0
 Cython==0.29.20
 decorator==4.4.2
