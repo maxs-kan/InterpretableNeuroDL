@@ -14,6 +14,7 @@ pip install -r ./requirements.txt
 
 
 
+
 ## DATABASE 
 
 The data we use is an open-access database taken from Human Connection Project (HCP). We worked with morphometry description of T1 MPI images as wel as the full-sized images preprocessed in `Freesurfer` according to the HCP pipeline.
