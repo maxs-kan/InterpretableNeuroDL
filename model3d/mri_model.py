@@ -50,13 +50,13 @@ def get_accuracy(net, data_loader, device):
     for data, target in data_loader:
         data = data.to(device)
         target = target.to(device)
-
         out = net(data)
         pred = out.data.max(1)[1] # get the index of the max log-probability
         correct += pred.eq(target.data).cpu().sum()
         del data, target
     accuracy = 100. * correct / len(data_loader.dataset)
     return accuracy.item()
+
 
 def get_loss(net, data_loader, criterion, device):
     net.eval()
